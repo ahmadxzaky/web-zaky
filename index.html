@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    <title>sejarah lombok</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="judul">
+            <h1> sejarah lombok </h1>
+        </div>
+    </header>
+
+    <div id="navbar">
+        <a class="active" href="#header">Home</a>
+        <a href="#Sejarah">SEJARAH</a>
+        <a href="#Wisata">WISATA</a>
+        <a href="#geografis">GEOGRAFIS</a>
+        <a href="#bahasa">BAHASA</a>
+        <a href="#kuliner">KULINER</a>
+    </div>
+    <main>
+        <div id="information">
+            <article id="Sejarah">
+                <h2>SEJARAH</h2>
+                <p>
+                    Pulau Lombok adalah sebuah pulau di kepulauan
+                    Sunda Kecil atau Nusa Tenggara yang terpisahkan oleh Selat Lombok dari Bali di sebelah barat dan
+                    Selat
+                    Alas di sebelah timur dari Sumbawa. Pulau ini kurang lebih berbentuk bulat dengan semacam "ekor" di
+                    sisi barat daya yang panjangnya kurang lebih 70 km. Luas pulau ini mencapai 5.435 km² menempatkannya
+                    pada peringkat 108 dari daftar pulau berdasarkan luasnya di dunia. Kota utama di pulau ini adalah
+                    Kota Mataram.</p>
+                <img id="sejarah" src="photo/sejarah lombok.jpg.jpg">
+
+            </article>
+            <article id="Wisata">
+                <h2>WISATA</h2>
+                <P>
+                    Pantai Kuta, Lombok adalah tempat wisata di Pulau Lombok, Provinsi Nusa Tenggara Barat, Indonesia.
+                    Pantai dengan pasir
+                    berwarna putih seperti buliran merica ini terletak di Kawasan Ekonomi Khusus Mandalika di Desa Kuta.
+                    Pantai Kuta memang terkenal dengan pasir putihnya yang berbeda dengan kebanyakan pantai di
+                    Indonesia.
+                    Pasir berwarna putih bak merica dengan garis pantai yang panjang menjadikan Kuta sebagai idola bagi
+                    para wisatawan domestik dan mancanegara. </P>
+                <img id="wisata" src="photo/wisata lombok.jpg.jpg" width="700" height="400">
+
+            </article>
+            <article id="geografis">
+                <h2>GEOGRAFIS</h2>
+                <p>
+                    Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung yang
+                    merupakan
+                    gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 mdpl serta terletak
+                    pada lintang 8º25' LS dan 116º28' BT ini merupakan gunung favorit bagi
+                    pendaki Indonesia karena keindahan pemandangannya. Gunung ini merupakan bagian dari Taman Nasional
+                    Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga
+                    menjadi 76.000 ha ke arah barat dan timur.</p>
+                <img id="Geografis" src="photo/geografis lombok.jpg.jpg" width="600" height="400">
+
+            </article>
+            <article id="bahasa">
+                <h2>BAHASA</h2>
+                <p bahasa>
+                    Bahasa Sasak merupakan bahasa ibu yang dituturkan oleh suku Sasak yang menjadi etnis mayoritas di
+                    pulau Lombok, Indonesia.
+                    Bahasa ini berkerabat dekat dengan bahasa Bali dan bahasa Sumbawa yang dituturkan di pulau-pulau
+                    sekitar Lombok. Ketiganya merupakan bagian
+                    dari rumpun bahasa Austronesia. Bahasa Sasak tidak memiliki status resmi; di Indonesia bahasa
+                    Indonesia adalah bahasa nasional
+                    yang digunakan oleh penutur bahasa Sasak dalam konteks formal dan tertulis.</p>
+                <img id="Bahasa" src="photo/bahasa lombok.jpeg" width="500" height="300">
+
+            </article>
+            <article id="kuliner">
+                <h2>KULINER</h2>
+                <p>
+                    Selain terkenal dengan wisata alamnya yang menghibur mata dan jiwa, Lombok juga terkenal dengan
+                    kulinernya yang menggugah selera.
+                    ini dia 7 makanan Kulineran di Mandalika,Lombok:
+                <ul id="uu">
+                    <li>1.Sate bulayak</li>
+                    <li>2.Ayam taliwang</li>
+                    <li>3.Sayur ares</li>
+                    <li>4.Ayam rarang</li>
+                    <li>5.Nasi balap puyung</li>
+                    <li>6.Plecing kangkung</li>
+                    <li>7.Sambal beberuk terung</li>
+                    <ul>
+                        <img src="photo/kuliner lombok.jpg">
+
+                        </p>
+            </article>
+
+        </div>
+        <aside><img src="photo/me1.jpg" width="300" height="300">
+            <b>
+                <p>nama: Ahmad Zaky</p>
+                <p>tempat, tanggal lahir: Brunei Darussalam, 11 January 2007</p>
+                <p>Agama: Islam</p>
+                <p>Sekolah: SMK Wikrama 1 Garut</p>
+                <p>Email: ahmadxzaky@gmail.com</p>
+            </b>
+        </aside>
+    </main>
+    <footer>
+        <p> Copy Right 2022</p>
+    </footer>
+
+</body>
+<script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
